@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7d1aae4d4f680c7fbcb03d0f17e20d5f",
+    "content-hash": "89016ca8f8512d851ea32fde558e5db5",
     "packages": [
         {
             "name": "acquia/drupal-spec-tool",
@@ -6437,17 +6437,17 @@
         },
         {
             "name": "drupal/hierarchy_manager",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/hierarchy_manager.git",
-                "reference": "3.1.0"
+                "reference": "3.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/hierarchy_manager-3.1.0.zip",
-                "reference": "3.1.0",
-                "shasum": "c9facc5ea8582cca61b8ed1bbace507995887401"
+                "url": "https://ftp.drupal.org/files/projects/hierarchy_manager-3.1.1.zip",
+                "reference": "3.1.1",
+                "shasum": "ecb44f021051333893d7422f410b91043867d2dd"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -6455,8 +6455,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "3.1.0",
-                    "datestamp": "1633693423",
+                    "version": "3.1.1",
+                    "datestamp": "1642047456",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -14179,16 +14179,16 @@
         },
         {
             "name": "phar-io/version",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phar-io/version.git",
-                "reference": "bae7c545bef187884426f042434e561ab1ddb182"
+                "reference": "15a90844ad40f127afd244c0cad228de2a80052a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phar-io/version/zipball/bae7c545bef187884426f042434e561ab1ddb182",
-                "reference": "bae7c545bef187884426f042434e561ab1ddb182",
+                "url": "https://api.github.com/repos/phar-io/version/zipball/15a90844ad40f127afd244c0cad228de2a80052a",
+                "reference": "15a90844ad40f127afd244c0cad228de2a80052a",
                 "shasum": ""
             },
             "require": {
@@ -14224,9 +14224,9 @@
             "description": "Library for handling version information and constraints",
             "support": {
                 "issues": "https://github.com/phar-io/version/issues",
-                "source": "https://github.com/phar-io/version/tree/3.1.0"
+                "source": "https://github.com/phar-io/version/tree/3.1.1"
             },
-            "time": "2021-02-23T14:00:09+00:00"
+            "time": "2022-02-07T21:56:48+00:00"
         },
         {
             "name": "php-http/cache-plugin",
@@ -25060,6 +25060,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/advancedqueue": 5,
+        "drupal/blazy": 5,
         "drupal/cer": 20,
         "drupal/content_lock": 15,
         "drupal/entity_block": 10,
@@ -25096,5 +25097,5 @@
     "platform-overrides": {
         "php": "7.3"
     },
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.2.0"
 }
